@@ -1,0 +1,44 @@
+.caja-relativa{
+    background-color: aquamarine;
+    width: 150px;
+    height: 50px;
+    /* Posicionamiento relativo: Se mueve desde  su punto de origen en el documento HTML*/
+    position: relative;
+    /* Para darle posicion al los elementos con position */
+    /* Se van a utilizar las siguientes propiedades: */
+    /* Top (eje y) */
+    /* Bottom (eje y) */
+    /* Left (eje x) */
+    /* Right (eje x) */
+    /* z-index (eje z)*/
+    top: 150px;
+    left: 200px;
+}
+
+.caja-absoluta{
+    background-color: yellow;
+    width: 100px;
+    height: 1000%;
+    /* La caja absoluta pierde su posicion inicial y se mueve con respecto al elemento html */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.caja-fija{
+    background-color: tomato;
+    width: 150px;
+    height: 50px;
+    /* Esta posicion queda fija mientras se desplaza por el documento HTML y al igual que absolute se mueve con respecto a la etiqueta HTML*/
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.caja-pegajosa{
+    background-color: rgb(88, 182, 69);
+    width: 150px;
+    height: 50px;
+    position: sticky;
+    top: 20px;
+    left: 0;
+}

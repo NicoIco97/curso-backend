@@ -1,0 +1,23 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/24/10/58/sand-2005066_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(236, 215, 240);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(61, 61, 187);
+}
+.parrafo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 20px;
+    color: rgb(255, 81, 0);
+}
+#parrafo-unico{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+div{
+    background-color: brown;
+}
